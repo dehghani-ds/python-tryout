@@ -9,3 +9,5 @@ print(type(priceDictionary['cherry'].sort()))
 print(priceDictionary['cherry'])
 print(priceDictionary.values())
 print(priceDictionary.items())
+priceDictionary['strawberry'] = [2000, 4000]
+print(priceDictionary.inse)
