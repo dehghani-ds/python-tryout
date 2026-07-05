@@ -10,3 +10,5 @@ elif i % 3 != 0 and i % 5 == 0:
     print(type_input[5])
 else:
     print('معمولی')
+
+print( 'معمولی' if i % 3 != 0 and i % 5 != 0 else 'افسانه ای' if  i % 3 == 0 and i% 5 ==0 else 'جادویی' if i % 3 == 0 else 'نفرین شده')
