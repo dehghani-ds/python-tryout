@@ -5,4 +5,10 @@ def pick_evens(*args):
             odd.append(arg)
     return odd
 
+def skyline(*args):
+    return max(args)
+
+
+
 print(pick_evens(2,3,24,23,5,245,63467,35,7,357))
+print(skyline(2,3,24,23,5,245,63467,35,7,357))
