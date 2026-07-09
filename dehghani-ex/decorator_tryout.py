@@ -16,3 +16,6 @@ def say_goodbye(name):
 
 say_hello('reza')
 say_goodbye('gholi')
+
+rapper = time_decorator(func=say_hello)
+rapper('reza')
