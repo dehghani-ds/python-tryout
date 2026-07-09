@@ -15,3 +15,17 @@ else:
     print("Result:", divide(num1, num2))
 finally:
     print("app ended successfully ;)")
+
+import unittest
+
+class TestError(unittest.TestCase):
+
+    def test_division_by_zero(self):
+        first_number = 1
+        second_number = 0
+        n = divide(first_number, second_number)
+        self.assertEqual(n, None)
+
+
+if __name__ == '__main__':
+    unittest.main()
