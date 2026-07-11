@@ -41,3 +41,6 @@ print(math.inf)
 print(math.e)
 print(math.ceil(math.e))
 print(round(math.log2(8)))
+my_list_one = list(range(10))
+import random
+print(f'the choice is=[{random.choice(my_list_one)}]')
