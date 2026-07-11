@@ -32,3 +32,12 @@ default_cid['name'] = 'yunus'
 print(default_cid.items())
 print(default_cid['name'])
 print(default_cid['family'])
+
+print(datetime.date.today())
+
+import math
+
+print(math.inf)
+print(math.e)
+print(math.ceil(math.e))
+print(round(math.log2(8)))
